@@ -54,7 +54,7 @@ function products() {
     var query = connection.query("SELECT item_id, department_name, product_name, price, stock_qty, product_sales FROM products ORDER BY item_id", function(err, results, fields) {
         if(err) throw err;
         console.log("\r\n" + " - - - - - - - - - - - - - - - - - - - - - - - - " + "\r\n");
-        console.log("\r\n" + "-------- BAMAZON PRODUCTS ----------" + "\r\n");
+        console.log("\r\n" + chalk.yellow("-------- " + chalk.magenta("BAMAZON PRODUCTS") + " ----------") + "\r\n");
         var productsList = [];
         console.table(results);
         for(obj in results) {
@@ -69,7 +69,7 @@ function lowInventory() {
     var query = connection.query("SELECT item_id, department_name, product_name, price, stock_qty FROM products WHERE stock_qty < 5", function(err, results, fields) {
         if(err) throw err;
         console.log("\r\n" + " - - - - - - - - - - - - - - - - - - - - - - - - " + "\r\n");
-        console.log("\r\n" + "-------- BAMAZON LOW INVENOTRY ----------" + "\r\n");
+        console.log("\r\n" + "-------- " + chalk.yellow("BAMAZON LOW INVENOTRY") + " ----------" + "\r\n");
         var inventoryLow = [];
         console.table(results);
         for(obj in results) {
@@ -96,7 +96,7 @@ function addInventory() {
         var query = connection.query("UPDATE products SET stock_qty = ? WHERE item_id = ?", [response.stockUpdate, response.itemID],
     function(err, res) {
         if(err) throw err;
-        console.log("\r\n" + "-------- BAMAZON UPDATED INVENOTRY ----------" + "\r\n");
+        console.log("\r\n" + "-------- " + chalk.blue("BAMAZON UPDATED INVENOTRY") + " ----------" + "\r\n");
         console.log("You updated the stock quantity to: " + response.stockUpdate + " for item ID: " + response.itemID  + "\r\n");
         console.log("\r\n" + " - - - - - - - - - - - - - - - - - - - - - - - - " + "\r\n");
         return managerDashboard();
@@ -146,7 +146,7 @@ function addProduct() {
             if(err) throw err;
             
         })
-        console.log("\r\n" + "-------- BAMAZON NEW PRODUCT ----------" + "\r\n");
+        console.log("\r\n" + "-------- " + chalk.green("BAMAZON NEW PRODUCT") + " ----------" + "\r\n");
         console.log("The following item has been added: " + "\r\n" + "item ID: " + userInput.id + "\r\n" + "Department: " + userInput.department + "\r\n" + "Product Name: " + userInput.product + "\r\n" + "Price per unit: " + userInput.price + "\r\n" + "Quantity: "  + userInput.quantity);
         return products();
     })

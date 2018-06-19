@@ -121,23 +121,7 @@ function(err, results) {
             console.log("I'm sorry you are not satisfied with your order, we hope to see you return soon!");
         }
     })
-        // inquirer.prompt([
-        //      {
-        //          type: "list",
-        //          name: "returnStore",
-        //          message: "What would you like to do?",
-        //          choices: ["Return to Store", "Leave Store"],
-        //      }
-        //  ]).then(function() {
-        //     if(confirm.returnStore === "Return to Store") {
-        //         console.clear();
-        //         console.log("********* Welcome Back! **********");
-        //         displayAll();
-        //     } else {
-        //         console.log("Thank you for shopping with us today, we hope to see you again soon!") 
-        //     }
-        //      return "\r\n" + "Thank you for your purchase! Your total order is " + orderTotal;
-        //  })
+  
     })
     console.clear();
 }
