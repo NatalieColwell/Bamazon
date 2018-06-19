@@ -51,7 +51,7 @@ function managerDashboard() {
 
 //function to display items and product details from database
 function products() {
-    var query = connection.query("SELECT item_id, department_name, product_name, price, stock_qty FROM products ORDER BY item_id", function(err, results, fields) {
+    var query = connection.query("SELECT item_id, department_name, product_name, price, stock_qty, product_sales FROM products ORDER BY item_id", function(err, results, fields) {
         if(err) throw err;
         console.log("\r\n" + " - - - - - - - - - - - - - - - - - - - - - - - - " + "\r\n");
         console.log("\r\n" + "-------- BAMAZON PRODUCTS ----------" + "\r\n");
