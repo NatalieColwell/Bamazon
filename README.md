@@ -37,9 +37,9 @@
 ### To get started follow the steps below...
 
 1. You will need to clone the repository in addition to installing the listed npm dependencies below:
-(you must install from your terminal command line)
+(*from your terminal command line*)
 
-* #### repositry:
+* #### repository:
     * git@github.com:NatalieColwell/Bamazon.git
 
 * #### npm dependencies  
