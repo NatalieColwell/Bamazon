@@ -47,9 +47,11 @@ __Bamazon__ is an *Amazon-like* storefront that is a command-line inventory app 
     prompts user to input new product into the database. They are asked to input an item ID, department, product name, price and quantity. The new product is saved and added to the list of sale items
 
 
-### you can also view a quick step-by-step video to get a better understanding of how the app works!
+##### you can also view a quick step-by-step video to get a better understanding of how the app works!
 
-[View Video](https://youtu.be/xy4mban1mRM)
+## [View Video](https://youtu.be/xy4mban1mRM)
+
+ #### I hope you enjoy!
 
 ![ScreenShots](/images/0modules_createConnection.png)
 ![ScreenShots](/images/1customerView_commandTable.png)
@@ -58,4 +60,4 @@ __Bamazon__ is an *Amazon-like* storefront that is a command-line inventory app 
 ![ScreenShots](/images/4managerView_addNewProduct_commandLine.png)
 
 
-    I hope you enjoy!
+   
