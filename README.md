@@ -49,9 +49,13 @@ __Bamazon__ is an *Amazon-like* storefront that is a command-line inventory app 
 
 ### you can also view a quick step-by-step video to get a better understanding of how the app works!
 
-https://youtu.be/xy4mban1mRM
+[View Video](https://youtu.be/xy4mban1mRM)
 
-![Alt text](https://www.youtube.com/watch?v=xy4mban1mRM&feature=youtu.be)
+![ScreenShots](/images/0modules_createConnection.png)
+![ScreenShots](/images/1customerView_commandTable.png)
+![ScreenShots](/images/2customerView.productList.png)
+![ScreenShots](/images/3managerView_commandTable_productDetails.png)
+![ScreenShots](/images/4managerView_addNewProduct_commandLine.png)
 
 
     I hope you enjoy!

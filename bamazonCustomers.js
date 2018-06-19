@@ -1,3 +1,4 @@
+
 var inquirer = require("inquirer");
 var mysql = require("mysql");
 var chalk = require("chalk"); // module to add colors
