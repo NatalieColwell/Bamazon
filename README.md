@@ -3,7 +3,8 @@
 
 __Bamazon__ is an *Amazon-like* storefront that is a command-line inventory app in node.js and mySQL 
 
-### To get started, follow the steps below
+
+## To get started, follow the steps below
 
 1. You will need to clone the repository in addition to installing the listed npm dependencies below:
 (you must install from your terminal command line)
@@ -44,6 +45,13 @@ __Bamazon__ is an *Amazon-like* storefront that is a command-line inventory app 
 
     * Add Products:
     prompts user to input new product into the database. They are asked to input an item ID, department, product name, price and quantity. The new product is saved and added to the list of sale items
+
+
+### you can also view a quick step-by-step video to get a better understanding of how the app works!
+
+https://youtu.be/xy4mban1mRM
+
+![Alt text](https://www.youtube.com/watch?v=xy4mban1mRM&feature=youtu.be)
 
 
     I hope you enjoy!
